@@ -1,5 +1,13 @@
 class Hash
   def keys_of(arguments)
     # code goes here
-  end
+    temp = []
+      Hash.each do |key, value| 
+      if arguments == key.to_s
+        temp = temp << person
+      end
+      end
+      temp
+    end
+  
 end
